@@ -76,6 +76,35 @@ accept incoming change: to accept changes from main branch
 
 accept current change: to accept changes from new branch(ie feature1 to main branch)
 
+undo:
+
+Case1: staged changes(to undo smth which we added but we shouldnt have added, used after the git add . command, for ex we removed a button and then git add . and we need to undo the add command)
+
+git reset <-filename->
+
+git reset
+(to undo everything before last commit)
+
+Case2:committed changes(for one commit)
+(to undo commit, after add we also committed)
+
+git reset HEAD~1
+
+
+
+Case3:committed changes(for many commits)
+(to undo many commits)
+
+git reset <-commit hash->
+to reset the commit to many commits before(only on git/git log history)
+
+git reset --hard <-commit hash->
+to reset the commit to many commit before(on the VS code editor, first reset on git then reset on code editor)
+
+git log 
+to get log of all the commits and their hash
+
+
 
 Workflow
 

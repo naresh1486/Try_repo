@@ -51,6 +51,16 @@ git branch -M main
 to rename branch 
 here we renamed the branch to main
 
+git checkout <-branch name->
+to move to another branch
+
+git checkout -b <-new branch name->
+to create new branch
+
+git branch -d <-branch name->
+to delete a branch
+
+
 git push -u origin main
 to tell that we will push everything on the main branch only from now on 
 it makes push command short from next onwards

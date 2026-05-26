@@ -1,0 +1,31 @@
+git push origin main
+    commits all changes of a local directory to the global directory on github
+
+
+git add <-Filename->
+to make it ready to be commited
+example: git add "index.html"
+
+git add .
+to add multiple changes
+
+git commit -m "some message"
+to commit a file
+example: 
+
+
+git status
+shows the status of each file
+untracked,modified,staged,modified
+
+git clone <-some link->
+to clone directory from global to local
+
+cd:change directory
+
+cd ..
+to get out of current directory
+
+mkdir 
+to make new directory
+

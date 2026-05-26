@@ -29,3 +29,26 @@ to get out of current directory
 mkdir 
 to make new directory
 
+git init 
+to initialize a directory to be a git directory
+
+git remote add origin <-link->
+to connect the already present project(directories) with the github
+first add commit then this command
+
+git remote -v
+to check with what global/remote directory this local directory has been connected with
+
+git branch 
+to check the branch we are working on
+
+git branch -M main
+to rename branch 
+here we renamed the branch to main
+
+git push -u origin main
+to tell that we will push everything on the main branch only from now on 
+it makes push command short from next onwards
+git push
+we will use this after 
+

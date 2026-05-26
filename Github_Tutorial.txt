@@ -104,7 +104,8 @@ to reset the commit to many commit before(on the VS code editor, first reset on 
 git log 
 to get log of all the commits and their hash
 
-
+fork 
+to copy someone else's project or contribute in open source we copy that project into out repositories and then after changing code/contributing we pull request and based on that it gets accepted or rejected
 
 Workflow
 

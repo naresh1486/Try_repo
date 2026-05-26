@@ -67,6 +67,11 @@ it makes push command short from next onwards
 git push
 we will use this after 
 
+git merge <-branch name->
+to merge one branch into another(main)
+
+and after merging all the branches into main then push the main into github main branch
+
 
 Workflow
 

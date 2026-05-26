@@ -1,6 +1,11 @@
 git push origin main
     commits all changes of a local directory to the global directory on github
 
+git pull origin main
+    to get all the changers after pull from remote to local
+
+git diff main
+to check diff between current branch and main branch
 
 git add <-Filename->
 to make it ready to be commited
@@ -71,4 +76,8 @@ Workflow
 4.add
 5.commit
 6.push
+resolve conflicts
+7.pull on github
+8.pull locally from remote to local
+
 
